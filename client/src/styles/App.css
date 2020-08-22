@@ -1,0 +1,35 @@
+body {
+  background-color: lightblue;
+  color: red;
+  padding: 1em;
+}
+.foodImg {
+  margin: auto;
+}
+.foodImg img{
+  height: 100%;
+  width: 100%;
+}
+.row {
+  margin: 1em;
+}
+.col-lg-3, .col-sm-6, .col-xs-12 {
+ text-align: center;
+ padding: 1em;
+}
+.chef {
+  padding: 0.2em;
+  float: right;
+}
+.chef, .details {
+  color: white;
+  background: rgb(250, 0, 0); /* fallback color */
+  background: rgba(250, 0, 0, 0.7);
+}
+h1 {
+	font-size: 5em;
+}
+header{
+	margin: 1em;
+	padding: 1em;
+}
