@@ -15,7 +15,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "bundle": "webpack -p",
+    "bundle": "webpack -p --mode=production",
     "eslint-fix": "eslint --fix \"src/**/*.js\"",
     "format": "prettier --write \"src/**/*.js\""
   },
@@ -36,6 +36,9 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.11.0",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
     "css-loader": "^4.2.1",
     "eslint-config-react": "^1.1.7",
     "eslint-plugin-react": "^7.20.6",

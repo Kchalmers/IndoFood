@@ -6,6 +6,8 @@
     "server": "nodemon server.js",
     "dev": "concurrently --kill-others-on-fail \"yarn server\" \"yarn client\""
   },
+  "author": "Kevin Chalmers",
+  "license": "ISC",
   "dependencies": {
     "babel-eslint": "^10.1.0",
     "body-parser": "^1.19.0",
